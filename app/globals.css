@@ -1,0 +1,11 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  font-family: "Pangolin", cursive;
+}

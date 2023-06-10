@@ -1,7 +1,9 @@
 import React from "react";
 
+import { LoginPage } from "./Components";
+
 function Login() {
-  return <div>Login</div>;
+  return <LoginPage />;
 }
 
 export default Login;

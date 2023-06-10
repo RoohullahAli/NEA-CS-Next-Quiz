@@ -1,17 +1,17 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Pangolin } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const pangolin = Pangolin({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-  title: "QuizzyPedia",
+  title: "QuizMaster",
   description: "A Quiz Website made for NEA project.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={pangolin.className}>{children}</body>
     </html>
   );
 }
